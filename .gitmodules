@@ -1,0 +1,9 @@
+[submodule "assignments/hw6/Pytorch-Conditional-Flow-Matching-Tutorial"]
+	path = assignments/hw6/Pytorch-Conditional-Flow-Matching-Tutorial
+	url = https://github.com/Jackson-Kang/Pytorch-Conditional-Flow-Matching-Tutorial.git
+[submodule "assignments/hw5/VAE-CVAE-MNIST"]
+	path = assignments/hw5/VAE-CVAE-MNIST
+	url = https://github.com/timbmg/VAE-CVAE-MNIST.git
+[submodule "assignments/hw5/pytorch-mnist-GAN"]
+	path = assignments/hw5/pytorch-mnist-GAN
+	url = https://github.com/lyeoni/pytorch-mnist-GAN.git
