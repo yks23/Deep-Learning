@@ -1,3 +1,6 @@
-# 实验6： Diffusion Models
-在MNIST上进行简单的扩散模型实验，参考以下仓库：
-https://github.com/Jackson-Kang/Pytorch-Conditional-Flow-Matching-Tutorial.git
+## 作业6
+本次作业不设置编程题了。
+请大家思考和回答以下问题：
+- 随着模型的增大，模型被动失效的可能性变大了还是变小了？被主动攻击的手段变多了还是变少了？
+- 目前有哪些主流的对抗样本生成方法？它们分别适用于哪些场景？
+- 你觉得有什么方法可以内生地支持对AIGC的检测？
