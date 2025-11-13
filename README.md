@@ -6,7 +6,7 @@
 
 ---
 
-### 1. **Conda 环境准备**  
+### 1. **Conda 环境准备 [for Windows]**  
 如果你之前已经在 Python 课程中配置过 Conda 环境，直接创建一个新环境并跳过这一节即可。没有接触过的同学也不用担心，按照以下步骤来配置你的开发环境，确保你能轻松运行课程所需的代码。
 
 #### **什么是 Conda？**  
@@ -25,7 +25,7 @@
 3. **创建 Conda 环境**  
    打开命令行终端，使用以下命令创建一个新的环境：
    ```bash
-   conda create -n myenv python=3.8
+   conda create -n myenv python=3.12
    ```
 
     你可以将 `myenv` 替换为你喜欢的环境名称。
