@@ -38,6 +38,26 @@
    - GitHub: Settings → SSH and GPG keys → New SSH key → 粘贴公钥
    - GitLab: Preferences → SSH Keys → 粘贴公钥
 
+5. **将 SSH 密钥添加到 ssh-agent**
+   ```bash
+   # 启动 ssh-agent
+   eval "$(ssh-agent -s)"
+   
+   # 添加密钥到 ssh-agent
+   ssh-add ~/.ssh/id_ed25519
+   # 或
+   ssh-add ~/.ssh/id_rsa
+   ```
+   
+   如果设置了密钥密码，会提示输入密码。
+
+6. **测试 SSH 连接（可选）**
+   ```bash
+   # 测试 GitHub 连接
+   ssh -T git@github.com
+   ```
+   如果看到 "Hi username! You've successfully authenticated..." 说明配置成功。
+
 ---
 
 ## 第二步：Clone 仓库
